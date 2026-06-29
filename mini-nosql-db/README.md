@@ -65,6 +65,12 @@ jar --create --file mini-nosql-db.jar --main-class minidb.server.MiniDbServer -C
 java -jar mini-nosql-db.jar config/single.properties
 ```
 
+Or use the helper script:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/build.ps1
+```
+
 ## Value Format
 
 The request body uses a small readable format:
@@ -116,4 +122,3 @@ GET /info
 ```
 
 Responses are also one line, for example `200 OK string:Alice` or `404 NOT_FOUND`.
-

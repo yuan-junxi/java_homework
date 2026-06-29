@@ -1,6 +1,7 @@
 out/
 data/**
 !data/.gitkeep
+*.jar
 *.class
 *.log
 *.tmp
