@@ -1,0 +1,7 @@
+﻿* 26bad36 (HEAD -> main, origin/main, origin/HEAD) Add simple build script
+* 7d85516 Polish README for course project presentation
+* 481e0c3 Add verification tests and design notes
+* ab44a99 Add socket server client and static replication
+* f15cef8 Implement key value storage and WAL recovery
+* d0ea667 Create mini NoSQL database project skeleton
+* ac8186d Initial commit
